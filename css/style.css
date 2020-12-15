@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #b91450;
+}
+
+/* classi riutilizzabili */
+.c_white {
+  color: white;
+}
+
+.c_rosa {
+  color: #b91450;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.tx-center {
+  text-align: center;
+}
+
+/* titolo */
+h1 {
+  padding: 25px;
+}
+
+h2 {
+  font-size: 30px;
+}
