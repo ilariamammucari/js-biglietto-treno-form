@@ -1,3 +1,4 @@
+// al click del pulsante genera
 var element = document.getElementById('genera');
 element.addEventListener('click',
 function() {
@@ -29,7 +30,35 @@ function() {
 
   document.getElementById('offerta').innerHTML = messaggio;
 
-})
+  // faccio apparire il biglietto
+  document.getElementById('box-biglietto').className = 'show';
+});
+
+// al click del pulsante annulla
+var annulla = document.getElementById('annulla');
+annulla.addEventListener('click',
+function() {
+
+  // svuoto i campi del biglietto
+  document.getElementById('nome').innerHTML = ' ';
+
+  document.getElementById('carrozza').innerHTML = ' ';
+
+  document.getElementById('codice').innerHTML = ' ';
+
+  document.getElementById('costo').innerHTML = ' ';
+
+  document.getElementById('offerta').innerHTML = ' ';
+
+  document.getElementById('nome-utente').value = ' ';
+
+  document.getElementById('kilometri').value =  ' ';
+
+  document.getElementById('fascia-eta').value = ' ';
+
+});
+
+
 
 
 

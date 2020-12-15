@@ -102,32 +102,34 @@ h2 {
 }
 
 /* boxbiglietto */
-.box-biglietto {
+#box-biglietto {
   max-width: 1170px;
   background-color: white;
   margin: 0 auto;
   padding: 30px;
 }
 
-.box-biglietto .row {
+#box-biglietto .row {
   display: flex;
 }
 
-.box-biglietto .row .nome-passeggero {
+#box-biglietto .row .nome-passeggero {
   background-color: #808080;
   padding: 20px
 ;}
 
-.box-biglietto .row table th,
-.box-biglietto .row .table td {
+#box-biglietto .row table th,
+#box-biglietto .row .table td {
   padding: 10px;
 }
 
 /* classi per js  */
 .hidden {
   opacity: 0;
+  transition: 0.4s;
 }
 
 .show {
   opacity: 1;
+  transition: 0.4s;
 }
