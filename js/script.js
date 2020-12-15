@@ -56,6 +56,9 @@ function() {
 
   document.getElementById('fascia-eta').value = ' ';
 
+  // scompare biglietto
+  document.getElementById('box-biglietto').className = 'hidden';
+
 });
 
 
